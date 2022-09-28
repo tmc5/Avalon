@@ -1,0 +1,607 @@
+@charset "utf-8";
+
+.first-view {
+  height: calc(100vh *0.7);
+  background-image: url(../images/index/bg-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.first-view-text {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 40px;
+  padding-bottom: 80px;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px #4b2c14;
+  text-align: right;
+}
+
+.first-view-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  line-height: 72px;
+}
+
+.first-view-text p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  letter-spacing: 0.25em;
+}
+
+.vision {
+  width: 600px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+}
+
+.vision-title h1{
+  font-family: "MS PMincho";
+  font-size: 50px;
+  color: 	#F4B49A;
+  margin-bottom: 30px;
+
+}
+
+.vision-text p {
+  font-size: 15px;
+  line-height: 1.8em;
+  margin-top: 50px;
+}
+
+.content-block {
+  width: 600px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.link-button-area {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.content-title h1{
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Yu Gothic";
+  font-weight: lighter;
+}
+
+.content-title h1::after {
+  content: ' ';
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: #000000;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-title-achivement h1{
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Yu Gothic";
+  font-weight: lighter;
+} 
+
+.content-title-achivement h1::after {
+  content: ' ';
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: #FFF;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-emphasis {
+  margin-top: 50px;
+  
+}
+
+.content-emphasis h1 {
+  width: 90%;
+  font-size: 16px;
+  line-height: 2em;
+  font-weight: bold;
+}
+
+.content-emphasis-detail{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.content-emphasis-detail p{
+  font-size: 12px;
+  line-height: 1.8em;
+
+}
+
+
+.content-emphasis-achievement {
+  text-align: center;
+}
+.content-emphasis-achievement h1{
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+.subcontent-title h1{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Yu Gothic";
+  font-weight: lighter;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.subcontent-title h1::after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #393939;
+  margin-top: 5px;
+}
+
+.underline {
+  background: linear-gradient(transparent 40%, #edbec0 60%);
+}
+
+.underline-red {
+  background: linear-gradient(transparent 40%, #E5D4D3 60%);
+}
+
+.underline-blue {
+ background: linear-gradient(transparent 40%, #CEDAE7 60%);
+}
+
+.program {
+  margin-top: 50px;
+}
+
+
+
+.one-program {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  max-width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+}
+
+.one-program-name {
+  display: flex;
+  width: 300px;
+  max-width: 40%;
+  height: 70px;
+  text-align: center;
+  justify-content: center;
+}
+
+.one-program-name h1 {
+  font-family: "MS PMincho";
+  color: #FFF;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.one-program-detail {
+  display: flex;
+  width: 300px;
+  max-width: 60%;
+  height: 70px;
+  justify-content: center;
+}
+
+.one-program-detail p{
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.mentoring-consul{   background-color: #37597C; }
+.mentoring-consul-detail{    border: 1px solid #37597C; }
+
+.mentoring{   background-color: #DEB1AB; }
+.mentoring-detail{    border: 1px solid #DEB1AB; }
+
+.lecture{   background-color: #C32226; }
+.lecture-detail{    border: 1px solid #C32226; }
+ 
+.interaction{   background-color: #841F13; }
+.interaction-detail{    border: 1px solid #841F13; }
+
+.community{   background-color: #3B1A15; }
+.community-detail{    border: 1px solid #3B1A15; }
+
+.schedule-img {
+  display: block;
+  margin-top: 50px;
+  width: 600px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.incert {
+  width: 600px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+
+.achievement-block{
+  color: white;
+  background-color: #527092;
+  width: 600px;
+  max-width: 100%;
+  margin-top: 0px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.achievement-inner{
+  width: 600px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.achievement h1{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.achievement li {
+  line-height: 1.5em;
+}
+
+.achievement ul {
+  list-style: disc;
+  padding-left: 60px;
+  margin-bottom: 50px;
+}
+
+.achievement {
+  margin-top: 50px;
+}
+
+.note {
+  background-color: rgb(214, 214, 214); /* 背景色 */
+  background-image: linear-gradient(180deg, rgb(115, 115, 115) 1px, transparent 1px); /* 罫線の色と太さ */
+  background-size: 100% 2.5em; /* 行の高さ */
+  line-height: 2.5em; /* 文字の高さ */
+  padding-bottom: 1px; /* 最終行の下にも罫線を引く */
+}
+
+.one-teacher {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  max-width: 90%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+  background-color: rgb(214, 214, 214);
+  box-shadow: 1px 1px 10px #4e5979;
+}
+
+.teacher-img {
+  width: 35%;
+}
+
+.teacher-text {
+  width: 45%;
+  font-size: 15px;
+}
+
+.one-user {
+  margin-bottom: 40px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  max-width: 90%;
+  padding-top: 0;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  
+}
+
+.user-img {
+  width: 200px;
+  max-width: 20%;
+}
+
+.user-text h2{
+  font-size: 16px;
+  
+}
+
+.user-text p{
+  font-size:13px;
+  margin-top: 8px;
+}
+
+.user-img img{
+  border-radius: 50%;
+}
+
+.user-comment {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(214, 214, 214);
+  padding: 20px 20px 15px 20px;
+  border-radius: 10px
+  
+}
+
+.user-comment h2{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.user-comment p{
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.link-button {
+  background-color: #37597C;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  line-height: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  color: #FFF;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.link-button:hover {
+  background-color: #2b455f;
+}
+
+.flow {
+  margin-top: 50px;
+  border: solid #527092 1px;
+  padding:0 40px 40px;
+}
+
+.flow h1{
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  
+}
+
+.one-process {
+  display: flex;
+  align-items:flex-end;
+}
+
+.one-process h2{
+  color: #2b455f;
+  font-size: 25px;
+  margin-right: 0.5em;
+}
+
+.one-process h3 {
+  font-weight: normal;
+  font-size: 23px;
+}
+
+.flow p{
+  line-height: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+a.anchor {
+  display: block;
+  padding-top: 200px;
+  margin-top: -200px;
+}
+
+.flow a{
+  color: #F4B49A;
+}
+
+.event {
+  background-color: #cfcfcf;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+.event-title h1{
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Yu Gothic";
+  font-weight: lighter;
+}
+
+.event-content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 600px;
+  max-width: 100%;
+}
+
+.one-event {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.one-event-info {
+  display: flex;
+  align-items: center;
+}
+
+.one-event h1{
+  font-size: 12px;
+  color: #4681da;
+  margin-right: 1em;
+}
+
+.one-event h2{
+  font-size: 17px;
+  color: #37597C;
+  margin-right: 1em;
+}
+
+.one-event p {
+  font-size: 15px;
+}
+
+.line {
+  width: 600px;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  background-color: #424a52;
+}
+
+.twitter {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer h1 {
+  margin-top: 50px;
+  font-size: 23px;
+  letter-spacing: 0.1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* アイコン */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+
+
+@media (max-width: 800px) {
+  .first-view {
+    height: calc((100vh - 50px)*0.4);
+    background-image: url(../images/index/bg-main-sp.jpg);
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  .first-view-text {
+    padding-top: 60px;
+    padding-right: 20px;
+  }
+
+  .first-view-text h1 {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .first-view-text p {
+    font-size: 7px;
+    margin-bottom: 10px;
+  }
+
+
+
+  .achievement-block{
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .achievement ul {
+    padding-left: 20px;
+  }
+
+  .teacher-text {
+    font-size: 12px;
+  }
+
+
+  .incert {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .one-event {
+    flex-direction: column;
+  }
+
+  .one-event-info {
+    margin-bottom: 10px;
+  }
+
+  .twitter {
+    max-width: 90%;
+  }
+
+
+
+}
