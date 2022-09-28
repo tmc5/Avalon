@@ -130,6 +130,13 @@
   margin-top: 10px;
 }
 
+
+.content-emphasis-detail h1{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
 .content-emphasis-detail p{
   font-size: 12px;
   line-height: 1.8em;
