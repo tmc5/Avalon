@@ -26,7 +26,7 @@
 
 .first-view-text h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
+  font-size: 65px;
   line-height: 72px;
 }
 
@@ -198,7 +198,7 @@
 
 .one-program {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 600px;
   max-width: 90%;
   margin-top: 20px;
@@ -211,7 +211,7 @@
   display: flex;
   width: 300px;
   max-width: 40%;
-  height: 70px;
+  height: 90px;
   text-align: center;
   justify-content: center;
 }
@@ -220,15 +220,16 @@
   font-family: "MS PMincho";
   color: #FFF;
   font-size: 18px;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 .one-program-detail {
   display: flex;
   width: 300px;
   max-width: 60%;
-  height: 70px;
+  height: 90px;
   justify-content: center;
+  align-items: center;
 }
 
 .one-program-detail p{
@@ -318,6 +319,7 @@
   background-size: 100% 2.5em; /* 行の高さ */
   line-height: 2.5em; /* 文字の高さ */
   padding-bottom: 1px; /* 最終行の下にも罫線を引く */
+  
 }
 
 .one-teacher {
@@ -582,12 +584,12 @@ a.anchor {
   }
 
   .first-view-text {
-    padding-top: 60px;
-    padding-right: 20px;
+    padding-top: 100px;
+    padding-right: 10px;
   }
 
   .first-view-text h1 {
-    font-size: 44px;
+    font-size: 32px;
     line-height: 48px;
   }
 
