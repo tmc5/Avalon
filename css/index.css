@@ -49,7 +49,13 @@
   font-size: 50px;
   color: 	#F4B49A;
   margin-bottom: 30px;
+}
 
+.vision-text span {
+  color: #2b455f;
+  font-size: 30px;
+  font-family: "MS PMincho";
+  font-weight: bold;
 }
 
 .vision-text p {
@@ -76,7 +82,7 @@
   font-weight: bold;
   line-height: 30px;
   text-align: center;
-  font-family: "Yu Gothic";
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: lighter;
 }
 
@@ -96,7 +102,7 @@
   font-weight: bold;
   line-height: 30px;
   text-align: center;
-  font-family: "Yu Gothic";
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: lighter;
 } 
 
@@ -157,9 +163,7 @@
 .subcontent-title h1{
   font-size: 18px;
   font-weight: bold;
-  font-family: "Yu Gothic";
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
-
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: lighter;
   margin-top: 60px;
   margin-bottom: 40px;
@@ -478,7 +482,7 @@ a.anchor {
   font-weight: bold;
   line-height: 30px;
   text-align: center;
-  font-family: "Yu Gothic";
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: lighter;
 }
 
@@ -528,11 +532,25 @@ a.anchor {
 }
 
 .twitter {
+  display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: auto;
   margin-left: auto;
 }
+
+.one-twitter{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.one-twitter h2{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
 .footer h1 {
   margin-top: 50px;
   font-size: 23px;
@@ -609,6 +627,7 @@ a.anchor {
 
   .twitter {
     max-width: 90%;
+    flex-direction: column;
   }
 
 
